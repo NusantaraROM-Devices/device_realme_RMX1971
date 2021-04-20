@@ -509,5 +509,8 @@
 
     <!-- Whether device has vooc charging support -->
     <bool name="config_hasVoocCharger">true</bool>
+    
+    <bool name="config_physicalDisplayCutout">true</bool>
+
 
 </resources>
