@@ -5,23 +5,24 @@
 #
 
 # Inherit some common Ricedroid stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
 # Inherit from RMX1971 device.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Boot Animation
-SUSHI_BOOTANIMATION := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
-PRODUCT_NAME := lineage_RMX1971
+PRODUCT_NAME := nad_RMX1971
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 5 Pro
 PRODUCT_MANUFACTURER := Realme
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_ENABLE_BLUR := true
 TARGET_SUPPORTS_QUICK_TAP := true
+NAD_BUILD_TYPE := OFFICIAL
+TARGET_USES_BLUR := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
@@ -38,15 +39,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 TARGET_USE_PIXEL_FINGERPRINT := true
 
 # Pixel
-WITH_GMS := true
 TARGET_OPTOUT_GOOGLE_TELEPHONY := true
-
-# Package Type (By default it says AOSP,lets make it Vanilla instead)
-RICE_PACKAGE_TYPE := Gapps
-
-# Official
-RICE_OFFICIAL := true
-RICE_MAINTAINER := KSSRAO
 
 # Graphene Camera
 TARGET_BUILD_GRAPHENEOS_CAMERA := false
