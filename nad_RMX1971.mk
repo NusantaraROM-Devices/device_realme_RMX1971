@@ -13,6 +13,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 NAD_BUILD_TYPE := OFFICIAL
 TARGET_USES_BLUR := true
+USE_GAPPS=true
 USE_PIXEL_CHARGING := true
 #TARGET_GAPPS_ARCH := arm64
 
@@ -26,9 +27,9 @@ PRODUCT_MANUFACTURER := Realme
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210705.001 7380771 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys"
 
-BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210705.001/7380771:user/release-keys
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ3A.210805.001/7474174:user/release-keys
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
