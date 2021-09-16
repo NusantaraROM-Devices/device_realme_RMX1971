@@ -1,8 +1,8 @@
 [
   {
-    "remote":"device",
+    "remote":"priv",
     "branch":"eleven",
-    "repository": "vendor_realme_RMX1971",
+    "repository": "703joko/vendor_backup",
     "target_path": "vendor/realme/RMX1971"
   },
   {
