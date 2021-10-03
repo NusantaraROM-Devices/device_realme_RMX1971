@@ -1,6 +1,6 @@
 [
   {
-    "remote":"ghpriv",
+    "remote":"github",
     "branch":"eleven",
     "repository": "703joko/vendor_backup",
     "target_path": "vendor/realme/RMX1971"
