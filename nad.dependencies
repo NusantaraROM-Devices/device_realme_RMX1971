@@ -1,8 +1,8 @@
 [
   {
-    "remote":"github",
+    "remote":"gitlab",
     "branch":"eleven",
-    "repository": "703joko/vendor_backup",
+    "repository": "AkaruiAikara/vendor_realme_RMX1971",
     "target_path": "vendor/realme/RMX1971"
   },
   {
