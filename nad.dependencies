@@ -14,7 +14,7 @@
   {
     "remote": "github",
     "branch": "eleven",
-    "repository": "703joko/device_realme_sdm710-common",
+    "repository": "ancient-devices/vendor_realme_RMX1971-common",
     "target_path": "device/realme/sdm710-common"
   },
   {
