@@ -1,26 +1,26 @@
 [
   {
-    "remote":"gitlab",
-    "branch":"eleven",
-    "repository": "AkaruiAikara/vendor_realme_RMX1971",
-    "target_path": "vendor/realme/RMX1971"
-  },
-  {
     "remote": "github",
-    "branch": "eleven",
+    "branch": "12",
     "repository": "703joko/android_kernel_realme_RMX1971",
     "target_path": "kernel/realme/RMX1971"
   },
   {
-    "remote": "github",
-    "branch": "eleven",
-    "repository": "703joko/device_realme_sdm710-common",
+    "remote": "ghpriv",
+    "branch": "nad",
+    "repository": "KharaMe-devices/android_device_realme_sdm710-common",
     "target_path": "device/realme/sdm710-common"
   },
   {
-    "remote": "github",
-    "branch": "eleven",
-    "repository": "ancient-devices/vendor_realme_RMX1971-common",
+    "remote":"ghpriv",
+    "branch":"twelve",
+    "repository": "KharaMe-devices/vendor_realme_RMX1971",
+    "target_path": "vendor/realme/RMX1971"
+  },
+  {
+    "remote": "ghpriv",
+    "branch": "twelve",
+    "repository": "KharaMe-devices/vendor_realme_sdm710-common",
     "target_path": "vendor/realme/sdm710-common"
   }
 ]
