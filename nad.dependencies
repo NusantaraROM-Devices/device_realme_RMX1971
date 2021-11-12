@@ -7,7 +7,7 @@
   },
   {
     "remote": "github",
-    "branch": "eleven",
+    "branch": "12",
     "repository": "703joko/android_kernel_realme_RMX1971",
     "target_path": "kernel/realme/RMX1971"
   },
