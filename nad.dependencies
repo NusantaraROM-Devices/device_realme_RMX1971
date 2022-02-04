@@ -1,14 +1,14 @@
 [
   {
     "remote": "github",
-    "branch": "12",
-    "repository": "703joko/android_kernel_realme_RMX1971",
-    "target_path": "kernel/realme/RMX1971"
+    "branch": "twelve",
+    "repository": "PixelExperience-Devices/kernel_realme_sdm710",
+    "target_path": "kernel/realme/sdm710"
   },
   {
-    "remote": "ghpriv",
-    "branch": "nad",
-    "repository": "KharaMe-devices/android_device_realme_sdm710-common",
+    "remote": "nad",
+    "branch": "12-dcommon",
+    "repository": "NusantaraROM-Devices/device_realme_RMX1971",
     "target_path": "device/realme/sdm710-common"
   },
   {
@@ -19,8 +19,8 @@
   },
   {
     "remote": "ghpriv",
-    "branch": "nad",
-    "repository": "KharaMe-devices/vendor_realme_sdm710-common",
+    "branch": "12-vcommon",
+    "repository": "NusantaraROM-Devices/device_realme_RMX1971",
     "target_path": "vendor/realme/sdm710-common"
   }
 ]
