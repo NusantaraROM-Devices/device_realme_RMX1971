@@ -1,26 +1,26 @@
 [
   {
-    "remote": "github",
-    "branch": "twelve",
-    "repository": "PixelExperience-Devices/kernel_realme_sdm710",
+    "remote": "ghpriv",
+    "branch": "12-kernel",
+    "repository": "703joko/RMX1971_12",
     "target_path": "kernel/realme/sdm710"
   },
   {
-    "remote": "nad",
+    "remote": "device",
     "branch": "12-dcommon",
-    "repository": "NusantaraROM-Devices/device_realme_RMX1971",
+    "repository": "device_realme_RMX1971",
     "target_path": "device/realme/sdm710-common"
   },
   {
     "remote":"ghpriv",
-    "branch":"twelve",
-    "repository": "KharaMe-devices/vendor_realme_RMX1971",
+    "branch": "12-vendor",
+    "repository": "703joko/RMX1971_12",
     "target_path": "vendor/realme/RMX1971"
   },
   {
-    "remote": "ghpriv",
+    "remote": "device",
     "branch": "12-vcommon",
-    "repository": "NusantaraROM-Devices/device_realme_RMX1971",
+    "repository": "device_realme_RMX1971",
     "target_path": "vendor/realme/sdm710-common"
   }
 ]
