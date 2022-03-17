@@ -1,20 +1,14 @@
 [
   {
-    "remote":"github",
-    "branch":"ten",
-    "repository": "PixelExperience-Devices/kernel_realme_RMX1971",
-    "target_path": "kernel/realme/RMX1971"
+    "remote":"device",
+    "branch":"12",
+    "repository": "kernel_realme_RMX1971",
+    "target_path": "kernel/realme/sdm710"
   },
   {
-    "remote":"pixel-devices-blobs",
-    "branch":"ten",
-    "repository": "vendor_realme_RMX1971",
+    "remote":"priv",
+    "branch":"10-vendor",
+    "repository": "703joko/RMX1971_12",
     "target_path": "vendor/realme/RMX1971"
-  },
-  {
-    "repository": "packages_apps_PixelLiveWallpaper",
-    "target_path": "packages/apps/PixelLiveWallpaper",
-    "branch": "ten",
-    "remote": "pixel-gitlab"
   }
 ]
