@@ -1050,6 +1050,12 @@ vendor/firmware/a630_sqe.fw
 vendor/firmware/leia_pfp_470.fw
 vendor/firmware/leia_pm4_470.fw
 
+# Health
+vendor/etc/init/android.hardware.health@2.0-service.rc
+vendor/etc/init/android.hardware.health@2.1-service.rc
+vendor/bin/hw/android.hardware.health@2.0-service
+vendor/bin/hw/android.hardware.health@2.1-service
+
 # IPA Firmware
 vendor/firmware/ipa_fws.b00
 vendor/firmware/ipa_fws.b01
