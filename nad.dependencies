@@ -6,10 +6,10 @@
     "target_path": "vendor/realme/RMX1971"
   },
   {
-    "remote": "github",
-    "branch": "12",
-    "repository": "703joko/android_kernel_realme_RMX1971",
-    "target_path": "kernel/realme/RMX1971"
+    "remote":"device",
+    "branch":"12",
+    "repository": "kernel_realme_RMX1971",
+    "target_path": "kernel/realme/sdm710"
   },
   {
     "remote": "github",
