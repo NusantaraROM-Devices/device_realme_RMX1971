@@ -6,7 +6,7 @@
     "target_path": "kernel/realme/sdm710"
   },
   {
-    "remote":"priv",
+    "remote":"private",
     "branch":"10-vendor",
     "repository": "703joko/RMX1971_12",
     "target_path": "vendor/realme/RMX1971"
