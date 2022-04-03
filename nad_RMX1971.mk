@@ -27,8 +27,8 @@ PRODUCT_MANUFACTURER := Realme
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="raven-user 12 S3B1.220218.004 8242181 release-keys"
-    BUILD_FINGERPRINT="google/raven/raven:12/S3B1.220218.004/8242181:user/release-keys"
+    PRIVATE_BUILD_DESC="raven-user 12 SP2A.220305.013.A3 8229987 release-keys"
+    BUILD_FINGERPRINT="google/raven/raven:12/SP2A.220305.013.A3/8229987:user/release-keys"
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
