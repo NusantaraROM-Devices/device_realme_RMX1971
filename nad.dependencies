@@ -12,7 +12,7 @@
     "target_path": "device/realme/sdm710-common"
   },
   {
-    "remote":"device",
+    "remote":"ghpriv",
     "branch": "12-vendor",
     "repository": "kernel_realme_RMX1971",
     "target_path": "vendor/realme/RMX1971"
