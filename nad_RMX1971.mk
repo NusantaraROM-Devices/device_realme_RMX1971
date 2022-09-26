@@ -12,6 +12,9 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 1080
+NAD_BUILD_TYPE := OFFICIAL
+USE_GAPPS ?= true
+#TARGET_GAPPS_ARCH := arm64
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := RMX1971
@@ -21,7 +24,6 @@ PRODUCT_MODEL := Realme 5 Pro
 PRODUCT_MANUFACTURER := Realme
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
-NAD_BUILD_TYPE := OFFICIAL
 TARGET_USES_BLUR := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
