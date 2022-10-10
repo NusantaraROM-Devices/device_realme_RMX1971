@@ -22,7 +22,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 NAD_BUILD_TYPE := OFFICIAL
 TARGET_USES_BLUR := true
-USE_GAPPS ?= true
+#USE_GAPPS ?= true
 USE_PIXEL_CHARGING := true
 
 # Gapps Config
