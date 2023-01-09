@@ -13,7 +13,7 @@
     },
     {
         "remote": "device",
-        "branch": "12-vcommon",
+        "branch": "13-vcommon",
         "repository": "device_realme_RMX1971",
         "target_path": "vendor/realme/sdm710-common"
     },
