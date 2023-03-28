@@ -150,6 +150,10 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service_64 \
     libxml2
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger_res_images
+
 # CNE
 PRODUCT_PACKAGES += \
     cneapiclient \
